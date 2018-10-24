@@ -12,7 +12,7 @@ class AboutPageView (TemplateView):
     template_name = "resume.html"
     def get_context_data(self):
         data = {"message_title" : "Website",
-                "message1": "Camarines Sur National High School",
+                "message1": "Junior & Senior High School: Camarines Sur National High School",
                 "message": "Elementary: Tinago Central School"}
         return data
 
